@@ -15,5 +15,3 @@ jobs:
         with:
           github_token: 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
           owner: severt-webclass
-          base: master
-          head: master
