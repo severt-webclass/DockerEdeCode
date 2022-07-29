@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v1.2.1
         with:
-          token: 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
+          github_token: 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
           owner: severt-webclass
           base: master
           head: master
