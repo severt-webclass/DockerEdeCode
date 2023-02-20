@@ -1,17 +1,17 @@
-name: Sync Fork
+#name: Sync Fork
 
-on:
-  schedule:
-    - cron: '*/5 * * * *' # every 5 minutes
-  workflow_dispatch: # on button click
+#on:
+#  schedule:
+#    - cron: '*/5 * * * *' # every 5 minutes
+#  workflow_dispatch: # on button click
 
-jobs:
-  sync:
+#jobs:
+#  sync:
 
-    runs-on: ubuntu-latest
+#    runs-on: ubuntu-latest
 
-    steps:
-      - uses: tgymnich/fork-sync@v1.2.1
-        with:
-          github_token: ${{ secrets.MAINSECRET }}
-          owner: Admin-EDE
+#    steps:
+#      - uses: tgymnich/fork-sync@v1.2.1
+#        with:
+#          github_token: ${{ secrets.MAINSECRET }}
+#          owner: Admin-EDE
